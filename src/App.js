@@ -3,8 +3,9 @@ import './App.css';
 import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 
 // Components : 
-
 import Header from './components/Header/Header.component.jsx';
+// Pages : 
+import Home  from './pages/home/Home.page.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
          <div className="app">
           <Switch>
              <Route path='/checkout' >
+                 <Header/>
                  <h1>checkout</h1>
              </Route>
              <Route path='/login' >
@@ -21,7 +23,7 @@ function App() {
              {/* defaut Route choud be last*/}
              <Route path='/' >
                 <Header/>
-                <h1>HOME PAGE</h1>
+                <Home />
              </Route>
           </Switch>
         </div>
