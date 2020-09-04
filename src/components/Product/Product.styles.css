@@ -10,6 +10,7 @@
   min-width: 100px;
   background-color: #fff;
   z-index: 1;
+  align-items: center;
 }
 
 .product__info {
@@ -40,5 +41,8 @@
   border-color: #a88734 #9c7e31 #846a29;
 
   text-align: center;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 5px;
 }
 

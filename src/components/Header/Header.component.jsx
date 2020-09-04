@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 // Material UI imports : 
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-
-
+// 
+import {useStateValue} from '../StateProvider/StateProvider.Component';
 
 function Header() {
+  const [ { backet } , dispatch ] = useStateValue();
   return (
     <nav className="header">
          {/* Logo */}
@@ -50,7 +51,9 @@ function Header() {
            <Link to="/checkout"  className="header__link" >
              <div className="header__optionBasket">
                  <ShoppingBasketIcon  />
-                 <span className="header__optionLineTwo header__BasketCount" >0</span>
+                 <span className="header__optionLineTwo header__BasketCount" >
+                 {backet.length}
+                 </span>  
              </div>
            </Link>
 

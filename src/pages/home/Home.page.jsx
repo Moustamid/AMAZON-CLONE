@@ -14,7 +14,7 @@ function Home() {
        {/* 2 colum row */}
       <div className="home__row">
       <Product 
-          id="123456"
+          id="6"
           title="New XPS 17 9700 17 Laptop 10th Gen Core i7-10875H up to 5.1 GHz 8 cores RTX 2060 6GB Max-Q 
                  4K UHD Anti-Reflex 500-Nit Touch Display Plus Best Notebook Stylus Pen Light (1TB SSD RAID|32GB RAM|10 PRO) " 
           price={1559.97}
@@ -23,7 +23,7 @@ function Home() {
        />
        
       <Product 
-          id="123456"
+          id="5"
           title="pNEW Microsoft Surface Book 3 - 13.5 
                 Touch-Screen - 10th Gen Intel Core i5 - 8GB Memory -
                 256GB SSD (Latest Model) - Platinum " 
@@ -36,7 +36,7 @@ function Home() {
        {/* 3 colum row */}
       <div className="home__row">
       <Product 
-          id="123456"
+          id="1"
           title="Apple iPhone 11 Pro Max (64GB, Midnight Green) [Locked] + Carrier Subscription"
           price={1099.00}
           rating={5}
@@ -44,7 +44,7 @@ function Home() {
        />
 
       <Product 
-          id="123456"
+          id="2"
           title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
           price={999.0}
           rating={5}
@@ -52,7 +52,7 @@ function Home() {
        />
 
       <Product 
-          id="123456"
+          id="3"
           title="Microsoft Surface Pro 7 256GB i5 8GB RAM with Windows 10 Pro (Wi-Fi, Quad-Core i5-1035G4, Newest Version) Platinum PVR-00001"
           price={1087.98}
           rating={5}
@@ -62,7 +62,7 @@ function Home() {
       {/* 1 colum row */}
       <div className="home__row">
       <Product 
-          id="123456"
+          id="4"
           title="Samsung Business CH890 Series 34 inch WQHD 3440x1440 Ultrawide Curved Desktop Monitor for Business, 100 Hz, USB-C, HDMI, DP, 3 Year Warranty..."
           price={561.68}
           rating={5}
